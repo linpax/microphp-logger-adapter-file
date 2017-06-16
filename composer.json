@@ -1,0 +1,21 @@
+{
+  "name": "linpax/microphp-logger-adapter-file",
+  "description": "MicroPHP logger adapter for file",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Zcasper",
+      "email": "testuser@mail.linpax.org"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Micro\\Logger\\Adapter\\File\\": "src/"
+    }
+  },
+  "require": {
+    "linpax/microphp-logger": "dev-master",
+    "linpax/microphp-driver-file": "dev-master"
+  }
+}
